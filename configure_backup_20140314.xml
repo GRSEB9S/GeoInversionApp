@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+	<DataSource>
+		<Windows_LAB>
+			<ChinaLandCover Filenum="3">
+				<ClassifiCode>H:/RemoteSensingData/LandUseData/ChinaLandUseData/land_type_code.csv</ClassifiCode>
+				<File>
+					<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+					<Filepath>F:/temp/LandCover/china_1995_1000m.tif</Filepath>
+					<Year>1995</Year>
+					<Filetype>Geotiff</Filetype>					
+				</File>
+				<File>
+					<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/2000/china_2000.tif</Filepath>  -->
+					<Filepath>F:/temp/LandCover/china_2000_1000m.tif</Filepath>
+					<Year>2000</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/2005/china_2005.tif</Filepath>  -->
+					<Filepath>F:/temp/LandCover/china_2005_1000m.tif</Filepath>
+					<Year>2005</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+			</ChinaLandCover>
+						
+			<AuxiliaryDataFile>
+				<ChinaData>
+					<!-- 到省会中心距离 -->
+					<CapitanCityDistance>
+						<Filepath>F:/temp/buffer/China_Capitan_City_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>2030410.5</MaximumValue>
+						<MeanValue>623146.0346</MeanValue>
+					</CapitanCityDistance>
+					
+					<!-- 到地级市中心距离 -->
+					<PrefectureCityDistance>
+						<Filepath>F:/temp/buffer/China_Prefecture_City_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>1871343</MaximumValue>
+						<MeanValue>354775.3577</MeanValue>
+					</PrefectureCityDistance>
+					
+					<!-- 到县级市中心距离 -->
+					<CountyTownDistance>
+						<Filepath>F:/temp/buffer/China_County_Town_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>1640138.625</MaximumValue>
+						<MeanValue>269124.3711</MeanValue>
+					</CountyTownDistance>
+					
+					<!-- 到公路距离 -->
+					<MainRoadDistance>
+						<Filepath>F:/temp/buffer/China_All_Road_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>1625834</MaximumValue>
+						<MeanValue>226602.4736</MeanValue>
+					</MainRoadDistance>
+					
+					<!-- 到铁路距离 -->
+					<MainRailwayDistance>
+						<Filepath>F:/temp/buffer/China_Main_Railway_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>2566221.75</MaximumValue>
+						<MeanValue>540725.3056</MeanValue>
+					</MainRailwayDistance>	
+				</ChinaData>
+			</AuxiliaryDataFile>
+			
+			<OutputFiles>
+				<LogDir>F:/temp</LogDir>
+				<UrbanChangeFilepath>F:/temp/0UrbanChangeFile.tif</UrbanChangeFilepath>
+				<UrbanReclassifiFilepath>F:/temp/1UrbanReclassiFile.tif</UrbanReclassifiFilepath>
+				<LandDevelopSuitableIndexFilepath>F:/temp/2LandDevelopSuitableIndexFile.tif</LandDevelopSuitableIndexFilepath>
+				<RegressionAnalysisPointsFile>F:/temp/3RegressionAnalysisPointsFile.txt</RegressionAnalysisPointsFile>
+				<ProbabilityDevelopedAllFilepath>F:/temp/4UrbanDevelopeProbabilityFile_20140314_1.tif</ProbabilityDevelopedAllFilepath>				
+				<UrbanDevelopmentCAIterationsResult>F:/temp/5UrbanDevelopmentCAIterationsResult.tif<UrbanDevelopmentCAIterationsResult>
+			</OutputFiles>		
+		</Windows_LAB>		
+	</DataSource>
+
+	<Parameters>
+		<Simulation>
+			<StartYear>2000</StartYear>
+			<EndYear>2005</EndYear>
+			<YearGap>5</YearGap>
+			
+			<!-- 	1 uncity TO city	
+					2 city TO city 
+					3 protective area TO city
+					4 uncity, protective area TO city
+					5 uncity, city, protective area TO city
+					-->
+			<ProbabilityType>1</ProbabilityType>			
+		</Simulation>
+		
+		<Analysis>
+			<RandomPointsNum>10000</RandomPointsNum>
+			<!-- Tree Number of Decision Forest, 50-100 -->
+			<DecisionForestTrees>80</DecisionForestTrees>
+			<!--percent of a training set used to build individual trees. Avail = (0, 1], Recommend = [0.1, 0.66]-->
+			<DecisionForestSetPersent>0.5</DecisionForestSetPersent>
+			<!-- number of variables used when choosing best split -->
+			<DecisionForestNRndVars>1000</DecisionForestNRndVars>
+			<!-- Decision Forest Output Result Data Filepath -->
+			<DecisionForestResultData>F:/temp/DecisionForestResultData.txt</DecisionForestResultData>
+		</Analysis>
+		
+		<CAIteration>
+			<!-- Maximum Iteration Num -->
+			<MaxIterationNum>10</MaxIterationNum>
+			<!-- Fore CA and Next CA Result Difference -->
+			<ForeNextDifferenceNum>100</ForeNextDifferenceNum>
+			<!-- The Minumum Probability To Development -->
+			<UrbanDevelopedProbability>0.5</UrbanDevelopedProbability>
+		</CAIteration>
+	
+	</Parameters>
+	
+</Data>

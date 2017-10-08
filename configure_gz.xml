@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+	<DataSource>
+		<LandCoverFiles Filenum="10">
+			<ClassifiCode>F:\guangzhou_data\广州数据\landcover\land_type_code.csv</ClassifiCode>
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\1990.tif</Filepath>
+				<Year>1990</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\1995.tif</Filepath>
+				<Year>1995</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>			
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\2000.tif</Filepath>
+				<Year>2000</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>			
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\2003.tif</Filepath>
+				<Year>2003</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\2005.tif</Filepath>
+				<Year>2005</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\2006.tif</Filepath>
+				<Year>2006</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\2007.tif</Filepath>
+				<Year>2007</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\2008.tif</Filepath>
+				<Year>2008</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\2009.tif</Filepath>
+				<Year>2009</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>
+			<File>
+				<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+				<Filepath>F:\guangzhou_data\广州数据\landcover\2012.tif</Filepath>
+				<Year>2012</Year>
+				<!-- no need -->
+				<Filetype>Geotiff</Filetype>					
+			</File>
+		</LandCoverFiles>
+
+		<!-- cal. prob. version 2.0, datatype must be FLOAT32. "filenum" can control input file from 0 to (filenum-1) -->
+		<AuxiliaryDataFiles Filenum ="5" TotalFileNum="23">		
+			<!-- Distance of town center -->
+			<File id ="-1">
+				<Comment>1990中心</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\城镇中心\1990中心.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>124853.10</MaximumValue>
+				<MeanValue>43083.24</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>			
+			<File id ="-1">
+				<Comment>1994中心</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\城镇中心\1994中心.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>124853.10</MaximumValue>
+				<MeanValue>42983.62</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>2000中心</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\城镇中心\2000中心.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>124853.10</MaximumValue>
+				<MeanValue>42967.23</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>			
+			<File id ="-1">
+				<Comment>2003中心</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\城镇中心\2003中心.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>119072.59</MaximumValue>
+				<MeanValue>41641.13</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="0">
+				<Comment>2008中心</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\城镇中心\2008中心.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>119072.59</MaximumValue>
+				<MeanValue>41630.98</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			
+			<!-- Distance of roads in 1990 -->
+			<File id ="-1">
+				<Comment>1990_高速快速</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\1990_高速快速.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>148664.61</MaximumValue>
+				<MeanValue>63208.64</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>1990_铁路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\1990_铁路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>129751.03</MaximumValue>
+				<MeanValue>54335.44</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>1990_一般道路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\1990_一般道路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>120930.47</MaximumValue>
+				<MeanValue>38512.37</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			
+			<!-- Distance of roads in 1994 -->
+			<File id ="-1">
+				<Comment>1994_高速快速</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\1994_高速快速.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>140102.63</MaximumValue>
+				<MeanValue>57829.04</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>1994_铁路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\1994_铁路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>132005.95</MaximumValue>
+				<MeanValue>54900.17</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>1994_一般道路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\1994_一般道路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>120930.47</MaximumValue>
+				<MeanValue>38019.54</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			
+			<!-- Distance of roads in 2000 -->
+			<File id ="-1">
+				<Comment>2000_地铁</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2000_地铁.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>169622.72</MaximumValue>
+				<MeanValue>79004.76</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>2000_高速快速</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2000_高速快速.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>124386.30</MaximumValue>
+				<MeanValue>46406.12</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>2000_铁路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2000_铁路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>132005.95</MaximumValue>
+				<MeanValue>54900.17</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>2000_一般道路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2000_一般道路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>120930.47</MaximumValue>
+				<MeanValue>38011.82</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			
+			<!-- Distance of roads in 2003 -->
+			<File id ="-1">
+				<Comment>2003_地铁</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2003_地铁.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>162698.06</MaximumValue>
+				<MeanValue>76362.39</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>2003_高速快速</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2003_高速快速.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>124386.30</MaximumValue>
+				<MeanValue>46341.17</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>2003_铁路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2003_铁路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>132005.95</MaximumValue>
+				<MeanValue>54900.17</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="-1">
+				<Comment>2003_一般道路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2003_一般道路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>120930.47</MaximumValue>
+				<MeanValue>38011.74</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			
+			<!-- Distance of roads in 2008 -->
+			<File id ="1">
+				<Comment>2008_地铁</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2008_地铁.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>159666.58</MaximumValue>
+				<MeanValue>76336.74</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="2">
+				<Comment>2008_高速快速</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2008_高速快速.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>124386.30</MaximumValue>
+				<MeanValue>46260.44</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="3">
+				<Comment>2008_铁路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2008_铁路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>132005.95</MaximumValue>
+				<MeanValue>54900.17</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			<File id ="4">
+				<Comment>2008_一般道路</Comment>
+				<Filepath>F:\guangzhou_data\广州数据\buffer\道路\2008_一般道路.tif</Filepath>
+				<MinimumValue>0</MinimumValue>
+				<MaximumValue>118265.79</MaximumValue>
+				<MeanValue>37394.33</MeanValue>
+				<NearBetter>1</NearBetter>
+				<!-- no need -->
+				<Datatype>FLOAT</Datatype>
+			</File>
+			
+		</AuxiliaryDataFiles>
+			
+					
+		<!--main output-->
+		<OutputFiles>
+			<LogDir>F:\guangzhou_data\广州数据\result</LogDir>
+			<UrbanChangeFilepath>F:\guangzhou_data\广州数据\result\0UrbanChangeFile.tif</UrbanChangeFilepath>
+			<UrbanReclassifiFilepath>F:\guangzhou_data\广州数据\result\1UrbanReclassiFile.tif</UrbanReclassifiFilepath>
+			<LandDevelopSuitableIndexFilepath>F:\guangzhou_data\广州数据\result\2LandDevelopSuitableIndexFile.tif</LandDevelopSuitableIndexFilepath>
+			<RegressionAnalysisPointsFile>F:\guangzhou_data\广州数据\result\3RegressionAnalysisPointsFile.txt</RegressionAnalysisPointsFile>
+			<ProbabilityDevelopedAllFilepath>F:\guangzhou_data\广州数据\result\4UrbanDevelopeProbabilityFile.tif</ProbabilityDevelopedAllFilepath>	
+				
+			<!-- Please Do Not Put Suffix Name In This Node Value -->
+			<UrbanDevelopmentCAIterationsResult>F:\guangzhou_data\广州数据\result\5UrbanDevelopmentCAIterationsResult</UrbanDevelopmentCAIterationsResult>
+			
+			<!-- Image Reclassification For Validation -->
+			<UrbanReclassifiFilepath_Validation>F:\guangzhou_data\广州数据\result\1UrbanReclassiFile_Validation.tif</UrbanReclassifiFilepath_Validation>
+			
+			<!-- ****IMPORTANT**** -->
+			<!-- Output 9 Bands Probability Or Not, <=0 No, >0 Yes -->
+			<IsOutput9BandsProbabiltyImage>1</IsOutput9BandsProbabiltyImage>
+			<Op9BandsProbabilityFilepath>F:\guangzhou_data\广州数据\result\9Bands_UrbanDevelopeProbabilityFile.tif</Op9BandsProbabilityFilepath>				
+		</OutputFiles>		
+	</DataSource>
+
+	<Parameters>
+		<Simulation>
+			<MaxThreadNum>8</MaxThreadNum>
+			<StartYear>1990</StartYear>
+			<EndYear>1995</EndYear>
+			<YearGap>5</YearGap>
+			
+			<!-- The Minmum Number Of Random Points Used To Train Decision Forests -->
+			<RandomPointsNum>5000</RandomPointsNum>
+			
+			<!-- 	1 uncity TO city	
+					2 city TO city 
+					3 protective area TO city
+					4 uncity, protective area TO city
+					5 uncity, city, protective area TO city
+					6 Protective area TO city
+					7 city TO uncity
+					-->
+			<ProbabilityType>1</ProbabilityType>
+
+			<!-- ****IMPORTANT**** -->
+			<!-- 0 Random Forests
+				 1 Logic Regression 
+				 2 Neural Network   
+				 3 Immune Algorithm -->
+			<RegressionMethod>1</RegressionMethod>			
+		</Simulation>
+		
+		<RandomDecisionForest>			
+			<!-- Tree Number of Decision Forest, 50-100 -->
+			<DecisionForestTrees>80</DecisionForestTrees>
+			<!--percent of a training set used to build individual trees. Avail = (0, 1], Recommend = [0.1, 0.66]-->
+			<DecisionForestSetPersent>0.4</DecisionForestSetPersent>
+			<!-- number of variables used when choosing best split -->
+			<DecisionForestNRndVars>1000</DecisionForestNRndVars>
+			<!-- Decision Forest Output Result Data Filepath -->
+			<DecisionForestResultData>F:\guangzhou_data\广州数据\result\DecisionForestAccuracyReport.txt</DecisionForestResultData>
+		</RandomDecisionForest>
+		
+		<LogicRegression>
+			<!--Trained Model File Path / Pre Model File Path-->
+			<ModelFilepath>F:\guangzhou_data\广州数据\result\logicRegressionTrainingFile.mod</ModelFilepath>
+			<!-- Minmal Accuracy To Next Step (Make Probability Image). -->
+			<MinAccuracyToPass>0.3</MinAccuracyToPass>
+			<!-- maximal iteration loops (default 100) -->
+			<MaxLoop>100</MaxLoop>
+			<!-- minimal loss value decrease (default 1e-03) -->
+			<LossThread>0.001</LossThread>
+			<!-- learning rate (default 1.0) -->
+			<LearnRate>1.0</LearnRate>
+			<!-- lambda of gaussian prior regularization (default 0) -->
+			<Lambda>0.0</Lambda>
+			<!-- 0: final weight (default); 1: average weights of all iteration loops -->
+			<AvgLoopWeight>0</AvgLoopWeight>
+			<!-- 0: initial training model (default); 1: updating model (pre_model_file is needed) -->
+			<UpdateModelFile>0</UpdateModelFile>
+		</LogicRegression>
+		
+		<NeuralNetwork>
+			<!-- ****IMPORTANT**** -->
+			<!-- NN Hidden Level Num -->
+			<HiddenLevelNum>10</HiddenLevelNum>
+			<!-- Restart Times, >0 Choose The Best NN, =0 Current State NN -->
+			<RestartsNum>10</RestartsNum>
+			<!-- NN Accuracy Report -->
+			<AccuracyReport>F:\guangzhou_data\广州数据\result\NeuralNetworkAccuracyReport.txt</AccuracyReport>
+		</NeuralNetwork>
+
+		<ImmuneAlgorithm>
+			<!-- Order num of classifier, recommondation = 1 -->
+			<ClassifierOrder>1</ClassifierOrder>
+			<!-- Number of antibodies -->
+			<AntibodiesNumber>200</AntibodiesNumber>
+			<!-- Variation probability -->
+			<VariationPg>0.6</VariationPg>
+			<!-- Exhange probability -->
+			<ExchangePg>0.6</ExchangePg>
+			<!-- Training iteration number, recommendation: 10000 -->
+			<TrainingIterationNum>300000</TrainingIterationNum>
+			<!-- Training accuracy report -->
+			<AccuracyReport>F:\guangzhou_data\广州数据\result\ImmuneAlogrithmAccuracyReport.txt</AccuracyReport>
+		</ImmuneAlgorithm>
+
+		<CAIteration>
+			<!-- Urban Pixels Increase Number, if > 0 && > MaxIterationNum, the program just simulate to the increase num.  -->
+			<!-- If this parameter <= 0, the whole image simulation and prediction -->
+			<UrbanIncreaseNum>520601</UrbanIncreaseNum>
+			<!-- Whether using the fast method to Urban Increase, <=0 No, >0 Yes -->
+			<UrbanIncreaseFastMethod>1</UrbanIncreaseFastMethod>
+			<!-- The Times of Finding Random Points per time -->
+			<FindRndPtsRestartTimes>5000</FindRndPtsRestartTimes>
+			
+			<!-- Maximum Iteration Num, remcommodation: 30-50 -->
+			<MaxIterationNum>100</MaxIterationNum>
+			
+			<!-- Fore CA and Next CA Result Difference, recommodation: 300-800 -->
+			<ForeNextDifferenceNum>0</ForeNextDifferenceNum>
+			<!-- The Minumum Probability To Development, RDF Recommend = [0.6, 0.9], LR Recommend = [0.1, 0.3] -->
+			<UrbanDevelopedProbability>0.01</UrbanDevelopedProbability>
+			<!-- Simulating Protective Area Or Not, <=0 No, >0 Yes -->
+			<IsSimulateProtectiveArea>0</IsSimulateProtectiveArea>
+			<!-- Calculating Neighbor Probability Use Probability Image, <=0 No, >0 Yes, urban scale = 0 -->
+			<IsUseProbImgCalNeighborProb>0</IsUseProbImgCalNeighborProb>
+			<!-- Next CA Iteration Use Fore Probability Result, <=0 No, >0 Yes -->
+			<IsUseForeProbImgToIteration>0</IsUseForeProbImgToIteration>
+		</CAIteration>
+		
+		<!-- ****IMPORTANT**** -->
+		<AccuracyEvaluation>
+			<!-- Execute this process or not, >=1 do, <=0 un-do -->
+			<ValidProcess>1</ValidProcess>
+			<!-- Source File -->
+			<SourceUrbanReclassifyFile>F:\guangzhou_data\广州数据\result\1UrbanReclassiFile.tif</SourceUrbanReclassifyFile>
+			<!-- Validation File -->
+			<TargetUrbanReclassifyFile>F:\guangzhou_data\广州数据\result\1UrbanReclassiFile_Validation.tif</TargetUrbanReclassifyFile>
+			<!-- China Vector File -->
+			<MapFile>F:\guangzhou_data\广州数据\result\guangzhou.shp</MapFile>		
+			<!-- CA Result Filename, Do Not Add Suffix Name. The Filename Must Append "_IterNo_*.tif", * = Interation Time -->
+			<CAResultFiles>F:\guangzhou_data\广州数据\result\5UrbanDevelopmentCAIterationsResult</CAResultFiles>
+			<!-- CA Result Filename, Do Not Add Suffix Name. The Filename Must Append "_IterNo_*.accu", * = Interation Time. or ".statics" -->
+			<AccuResultFiles>F:\guangzhou_data\广州数据\result\5UrbanDevelopmentCAIterationsResult</AccuResultFiles>		
+		</AccuracyEvaluation>
+		
+	</Parameters>	
+</Data>

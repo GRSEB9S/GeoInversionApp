@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Alglib">
+      <UniqueIdentifier>{508d2b19-2139-4317-82d2-af8729904789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LR">
+      <UniqueIdentifier>{609b9fe2-d2c9-4f08-821c-d3f0eb31543e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AG">
+      <UniqueIdentifier>{8ba15ee6-fd7d-4042-8fe5-a3ada116f787}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cxml2config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global_include.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UrbanChangeCAIteration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UrbanChangeMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\alglibinternal.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\alglibmisc.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\ap.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\dataanalysis.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\diffequations.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\fasttransforms.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\integration.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\interpolation.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\linalg.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\optimization.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\solvers.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\specialfunctions.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\statistics.cpp">
+      <Filter>Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicRegression\LR.cpp">
+      <Filter>LR</Filter>
+    </ClCompile>
+    <ClCompile Include="UrbanChangeProbabilityAnalysis_V2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UrbanChangeProbabilityAnalysis_V1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImmuneAlgorithm\AG.cpp">
+      <Filter>AG</Filter>
+    </ClCompile>
+    <ClCompile Include="ImmuneAlgorithm\AIS.cpp">
+      <Filter>AG</Filter>
+    </ClCompile>
+    <ClCompile Include="ImmuneAlgorithm\immune.cpp">
+      <Filter>AG</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthorityRW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cxml2config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global_include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UrbanChangeCAIteration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UrbanChangeMaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\alglibinternal.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\alglibmisc.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\ap.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\dataanalysis.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\diffequations.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\fasttransforms.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\integration.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\interpolation.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\linalg.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\optimization.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\solvers.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\specialfunctions.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\statistics.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\stdafx.h">
+      <Filter>Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicRegression\LR.h">
+      <Filter>LR</Filter>
+    </ClInclude>
+    <ClInclude Include="UrbanChangeProbabilityAnalysis_V2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UrbanChangeProbabilityAnalysis_V1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImmuneAlgorithm\AG.h">
+      <Filter>AG</Filter>
+    </ClInclude>
+    <ClInclude Include="ImmuneAlgorithm\AIS.h">
+      <Filter>AG</Filter>
+    </ClInclude>
+    <ClInclude Include="ImmuneAlgorithm\immune.h">
+      <Filter>AG</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthorityRW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="configure.xml" />
+    <None Include="configure_gz.xml" />
+    <None Include="yangtzedelta_configure.xml" />
+    <None Include="huanbohai_configure.xml" />
+    <None Include="example_final.xml" />
+    <None Include="key.au" />
+  </ItemGroup>
+</Project>

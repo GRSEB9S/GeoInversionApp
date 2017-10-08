@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+	<DataSource>
+		<Windows_LAB>
+			<DEM Filenum="1">
+				<File>
+					<Filepath>H:/RemoteSensingData/DEM_250m/SRTM_W_250m.tif</Filepath>
+					<Solution>250</Solution>
+					<Unit>Meter</Unit>
+					<Filetype>Geotiff</Filetype>
+				</File>
+			</DEM>		
+			<Population Filenum="11">
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2000.tif</Filepath>
+					<Year>2000</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2001.tif</Filepath>
+					<Year>2001</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2002.tif</Filepath>
+					<Year>2002</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2003.tif</Filepath>
+					<Year>2003</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2004.tif</Filepath>
+					<Year>2004</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2005.tif</Filepath>
+					<Year>2005</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2006.tif</Filepath>
+					<Year>2006</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2007.tif</Filepath>
+					<Year>2007</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2008.tif</Filepath>
+					<Year>2008</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2009.tif</Filepath>
+					<Year>2009</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandScanPopulation2000_2010/lspop2010.tif</Filepath>
+					<Year>2010</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+			</Population>		
+			<GlobleRoads Filenum="1">
+				<File>
+					<Filepath>H:/RemoteSensingData/GlobalRoads/globalroads.shp</Filepath>
+					<Filetype>Shape</Filetype>
+				</File>
+			</GlobleRoads>
+			<GlobleRegion Filenum="2">
+				<File>
+					<Filepath>H:/RemoteSensingData/GlobalRegionShape/vector_GlobalRegion/gadm2.shp</Filepath>
+					<Level>Province</Level>
+					<Filetype>Shape</Filetype>
+					<Year>2011</Year>
+				</File>
+			</GlobleRegion>
+			<GlobeLandCover Filenum="4">
+				<File>
+					<Filepath>H:/RemoteSensingData/LandUseData/GlobalLandUseData/GLCC1992_1993/glcc_v1_1.tif</Filepath>
+					<Year>1992</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandUseData/GlobalLandUseData/GLC2000/glc2000_v1_1.tif</Filepath>
+					<Year>2000</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandUseData/GlobalLandUseData/GlobCover/GLOBCOVER_200412_200606_V2.2_Global/GLOBCOVER_200412_200606_V2.2_Global_CLA.tif</Filepath>
+					<Year>2005</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>H:/RemoteSensingData/LandUseData/GlobalLandUseData/GlobCover/Globcover2009_V2.3_Global_/GLOBCOVER_L4_200901_200912_V2.3.tif</Filepath>
+					<Year>2009</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+			</GlobeLandCover>		
+			<ChinaLandCover Filenum="3">
+				<ClassifiCode>H:/RemoteSensingData/LandUseData/ChinaLandUseData/land_type_code.csv</ClassifiCode>
+				<File>
+					<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/1995/china_1995.tif</Filepath>  -->
+					<Filepath>F:/temp/LandCover/china_1995_1000m.tif</Filepath>
+					<Year>1995</Year>
+					<Filetype>Geotiff</Filetype>					
+				</File>
+				<File>
+					<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/2000/china_2000.tif</Filepath>  -->
+					<Filepath>F:/temp/LandCover/china_2000_1000m.tif</Filepath>
+					<Year>2000</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<!-- <Filepath>H:/RemoteSensingData/LandUseData/ChinaLandUseData/ChinaLandUse/2005/china_2005.tif</Filepath>  -->
+					<Filepath>F:/temp/LandCover/china_2005_1000m.tif</Filepath>
+					<Year>2005</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+			</ChinaLandCover>
+			<THU_GlobeLandCover Filenum="296">
+				<FileDir>H:/RemoteSensingData/LandUseData/GlobalLandUseData/thu_30m_globalcover</FileDir>
+				<Specification>H:/RemoteSensingData/LandUseData/GlobalLandUseData/thu_30m_globalcover/data.xml</Specification>
+				<Solution>30</Solution>
+				<Unit>Meter</Unit>
+			</THU_GlobeLandCover>
+			
+			<AuxiliaryDataFile>
+				<ChinaData>
+					<!-- 到省会中心距离 -->
+					<CapitanCityDistance>
+						<Filepath>F:/temp/buffer/China_Capitan_City_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>2030410.5</MaximumValue>
+						<MeanValue>623146.0346</MeanValue>
+					</CapitanCityDistance>
+					
+					<!-- 到地级市中心距离 -->
+					<PrefectureCityDistance>
+						<Filepath>F:/temp/buffer/China_Prefecture_City_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>1871343</MaximumValue>
+						<MeanValue>354775.3577</MeanValue>
+					</PrefectureCityDistance>
+					
+					<!-- 到县级市中心距离 -->
+					<CountyTownDistance>
+						<Filepath>F:/temp/buffer/China_County_Town_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>1640138.625</MaximumValue>
+						<MeanValue>269124.3711</MeanValue>
+					</CountyTownDistance>
+					
+					<!-- 到公路距离 -->
+					<MainRoadDistance>
+						<Filepath>F:/temp/buffer/China_All_Road_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>1625834</MaximumValue>
+						<MeanValue>226602.4736</MeanValue>
+					</MainRoadDistance>
+					
+					<!-- 到铁路距离 -->
+					<MainRailwayDistance>
+						<Filepath>F:/temp/buffer/China_Main_Railway_Distance_1000m.tif</Filepath>
+						<MinimumValue>0</MinimumValue>
+						<MaximumValue>2566221.75</MaximumValue>
+						<MeanValue>540725.3056</MeanValue>
+					</MainRailwayDistance>	
+				</ChinaData>
+			</AuxiliaryDataFile>
+			
+			<OutputFiles>
+				<LogDir>F:/temp</LogDir>
+				<UrbanChangeFilepath>F:/temp/UrbanChangeFile.tif</UrbanChangeFilepath>
+				<LandDevelopSuitableIndexFilepath>F:/temp/LandDevelopSuitableIndexFile.tif</LandDevelopSuitableIndexFilepath>
+				<RegressionAnalysisPointsFile>F:/temp/RegressionAnalysisPointsFile.txt</RegressionAnalysisPointsFile>
+				<ProbabilityDevelopedAllFilepath>F:/temp/UrbanDevelopeProbabilityFile.tif</ProbabilityDevelopedAllFilepath>				
+			</OutputFiles>		
+		</Windows_LAB>
+		
+		<Linux_SC>
+			<DEM Filenum="1">
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/DEM_250m/SRTM_W_250m.tif</Filepath>
+					<Solution>250</Solution>
+					<Unit>Meter</Unit>
+					<Filetype>Geotiff</Filetype>
+				</File>
+			</DEM>		
+			<Population Filenum="11">
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2000.tif</Filepath>
+					<Year>2000</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2001.tif</Filepath>
+					<Year>2001</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2002.tif</Filepath>
+					<Year>2002</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2003.tif</Filepath>
+					<Year>2003</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2004.tif</Filepath>
+					<Year>2004</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2005.tif</Filepath>
+					<Year>2005</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2006.tif</Filepath>
+					<Year>2006</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2007.tif</Filepath>
+					<Year>2007</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2008.tif</Filepath>
+					<Year>2008</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2009.tif</Filepath>
+					<Year>2009</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/LandScanPopulation/lspop2010.tif</Filepath>
+					<Year>2010</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+			</Population>		
+			<GlobleRoads Filenum="1">
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobalRoads/globalroads.shp</Filepath>
+					<Filetype>Shape</Filetype>
+				</File>
+			</GlobleRoads>		
+			<GlobleRegion Filenum="2">
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobalRegionShape/gadm_v1_lev1_shp/gadm1_lev1.shp</Filepath>
+					<Level>Province</Level>
+					<Filetype>Shape</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobalRegionShape/gadm_v2_shp/gadm2.shp</Filepath>
+					<Level>City</Level>
+					<Filetype>Shape</Filetype>
+				</File>
+			</GlobleRegion>
+			<GlobeLandCover Filenum="4">
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobCoverData/GLCC1992_1993/glcc_v1_1.tif</Filepath>
+					<Year>1992</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobCoverData/GLC2000/glc2000_v1_2.tif</Filepath>
+					<Year>2000</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobCoverData/GlobCover/GLOBCOVER_200412_200606_V2.2_Global/GLOBCOVER_200412_200606_V2.2_Global_CLA.tif</Filepath>
+					<Year>2005</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobCoverData/GlobCover/Globcover2009_V2.3_Global_/GLOBCOVER_L4_200901_200912_V2.3.tif</Filepath>
+					<Year>2009</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+			</GlobeLandCover>		
+			<ChinaLandCover Filenum="3">
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobCoverData/ChinaLandUse/1995/1995.tif</Filepath>
+					<Year>1995</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobCoverData/ChinaLandUse/2000/2000.tif</Filepath>
+					<Year>2000</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+				<File>
+					<Filepath>/locallustre/home/whuyao/work/data/GlobCoverData/ChinaLandUse/2005/2005.tif</Filepath>
+					<Year>2005</Year>
+					<Filetype>Geotiff</Filetype>
+				</File>
+			</ChinaLandCover>		
+			<THU_GlobeLandCover Filenum="296">
+				<FileDir>/locallustre/home/whuyao/work/data/GlobCoverData/thu_30m_globalcover/thu_30m_globalcover</FileDir>
+				<Specification>/locallustre/home/whuyao/work/data/GlobCoverData/thu_30m_globalcover/data.xml</Specification>
+				<Solution>30</Solution>
+				<Unit>Meter</Unit>
+			</THU_GlobeLandCover>
+		</Linux_SC>
+	</DataSource>
+
+	<Parameters>
+		<Simulation>
+			<StartYear>2000</StartYear>
+			<EndYear>2005</EndYear>
+			<YearGap>5</YearGap>
+			
+			<!-- 	1 uncity TO city	
+					2 city TO city 
+					3 protective area TO city
+					4 uncity, protective area TO city
+					5 uncity, city, protective area TO city
+					-->
+			<ProbabilityType>4</ProbabilityType>			
+		</Simulation>
+		
+		<Analysis>
+			<RandomPointsNum>2000</RandomPointsNum>
+			<!-- Tree Number of Decision Forest, 50-100 -->
+			<DecisionForestTrees>80</DecisionForestTrees>
+			<!--percent of a training set used to build individual trees. Avail = (0, 1], Recommend = [0.1, 0.66]-->
+			<DecisionForestSetPersent>0.5</DecisionForestSetPersent>
+			<!-- number of variables used when choosing best split -->
+			<DecisionForestNRndVars>1000</DecisionForestNRndVars>
+			<!-- Decision Forest Output Result Data Filepath -->
+			<DecisionForestResultData>F:/temp/DecisionForestResultData.txt</DecisionForestResultData>
+		</Analysis>
+	
+	</Parameters>
+	
+</Data>
